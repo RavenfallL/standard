@@ -1,0 +1,443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A920A699-2CC9-4605-95D2-01A5FE293C76}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>standard</RootNamespace>
+    <AssemblyName>standard</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="ad\adduser.aspx" />
+    <Content Include="ad\bzlist.aspx" />
+    <Content Include="ad\css\common1.css" />
+    <Content Include="ad\css\control.css" />
+    <Content Include="ad\css\css.css" />
+    <Content Include="ad\css\head.css" />
+    <Content Include="ad\css\style.css" />
+    <Content Include="ad\css\style0.css" />
+    <Content Include="ad\css\tab.js" />
+    <Content Include="ad\images\bu01.gif" />
+    <Content Include="ad\images\bu02.gif" />
+    <Content Include="ad\images\bu03.gif" />
+    <Content Include="ad\images\bu04.gif" />
+    <Content Include="ad\images\bu05.gif" />
+    <Content Include="ad\images\bu06.gif" />
+    <Content Include="ad\images\bu07.gif" />
+    <Content Include="ad\images\bu08.gif" />
+    <Content Include="ad\images\bu09.gif" />
+    <Content Include="ad\images\bu10.gif" />
+    <Content Include="ad\images\bu11.gif" />
+    <Content Include="ad\images\bu12.gif" />
+    <Content Include="ad\images\bu13.gif" />
+    <Content Include="ad\images\button03.gif" />
+    <Content Include="ad\images\button04.gif" />
+    <Content Include="ad\images\button05.gif" />
+    <Content Include="ad\images\button06.gif" />
+    <Content Include="ad\images\button07.gif" />
+    <Content Include="ad\images\button08.gif" />
+    <Content Include="ad\images\button09.gif" />
+    <Content Include="ad\images\button10.gif" />
+    <Content Include="ad\images\dhbutton01.gif" />
+    <Content Include="ad\images\dhbutton02.gif" />
+    <Content Include="ad\images\dhbutton03.gif" />
+    <Content Include="ad\images\dhbutton04.gif" />
+    <Content Include="ad\images\dhbutton05.gif" />
+    <Content Include="ad\images\ico01.gif" />
+    <Content Include="ad\images\ico02.gif" />
+    <Content Include="ad\images\ico03.gif" />
+    <Content Include="ad\images\ico04.gif" />
+    <Content Include="ad\images\ico05.gif" />
+    <Content Include="ad\images\ico06.gif" />
+    <Content Include="ad\images\ico07.gif" />
+    <Content Include="ad\images\ico11.gif" />
+    <Content Include="ad\images\ico12.gif" />
+    <Content Include="ad\images\ico13.gif" />
+    <Content Include="ad\images\ico14.gif" />
+    <Content Include="ad\images\ico15.gif" />
+    <Content Include="ad\images\ico16.gif" />
+    <Content Include="ad\images\ico24.gif" />
+    <Content Include="ad\images\left.gif" />
+    <Content Include="ad\images\line01.gif" />
+    <Content Include="ad\images\loadon.gif" />
+    <Content Include="ad\images\logo.gif" />
+    <Content Include="ad\images\mode.jpg" />
+    <Content Include="ad\images\nav01.gif" />
+    <Content Include="ad\images\nav02.gif" />
+    <Content Include="ad\images\nav03.gif" />
+    <Content Include="ad\images\nav04.gif" />
+    <Content Include="ad\images\nav05.gif" />
+    <Content Include="ad\images\nav06.gif" />
+    <Content Include="ad\images\nav07.gif" />
+    <Content Include="ad\images\navbutton01.gif" />
+    <Content Include="ad\images\navbutton02.gif" />
+    <Content Include="ad\images\navbutton03.gif" />
+    <Content Include="ad\images\navbutton04.gif" />
+    <Content Include="ad\images\navend.gif" />
+    <Content Include="ad\images\newline.gif" />
+    <Content Include="ad\images\newling.gif" />
+    <Content Include="ad\images\pic05.gif" />
+    <Content Include="ad\images\shape01.gif" />
+    <Content Include="ad\images\spacer.gif" />
+    <Content Include="ad\images\top.gif" />
+    <Content Include="ad\images\top02.gif" />
+    <Content Include="ad\images\top03.gif" />
+    <Content Include="ad\images\welcome.gif" />
+    <Content Include="ad\index.htm" />
+    <Content Include="ad\js\jquery.js" />
+    <Content Include="ad\js\lib.js" />
+    <Content Include="ad\js\typem.js" />
+    <Content Include="ad\js\xiangmu.js" />
+    <Content Include="ad\1.htm" />
+    <Content Include="ad\left.aspx" />
+    <Content Include="ad\mainfra.htm" />
+    <Content Include="ad\status.aspx" />
+    <Content Include="ad\top.htm" />
+    <Content Include="ad\user2\images\register_03.gif" />
+    <Content Include="ad\user2\images\register_04.gif" />
+    <Content Include="ad\user2\images\register_05.gif" />
+    <Content Include="ad\user2\images\register_08.gif" />
+    <Content Include="ad\user2\images\register_10.gif" />
+    <Content Include="ad\user2\images\register_11.gif" />
+    <Content Include="ad\user2\images\register_13.gif" />
+    <Content Include="ad\user2\images\register_15.gif" />
+    <Content Include="ad\user2\images\register_17.gif" />
+    <Content Include="ad\user2\images\register_20.gif" />
+    <Content Include="ad\user2\images\register_21.gif" />
+    <Content Include="ad\user2\images\register_22.gif" />
+    <Content Include="ad\user2\images\register_23.gif" />
+    <Content Include="ad\user2\images\register_24.gif" />
+    <Content Include="ad\user2\images\register_28.gif" />
+    <Content Include="ad\user2\images\register_31.gif" />
+    <Content Include="ad\user2\images\register_32.gif" />
+    <Content Include="ad\user2\images\register_34.gif" />
+    <Content Include="ad\user2\images\rr_24.gif" />
+    <Content Include="ad\user2\images\rr_26.gif" />
+    <Content Include="ad\userlist.aspx" />
+    <Content Include="apply.aspx" />
+    <Content Include="edit.aspx" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\10.jpg" />
+    <Content Include="images\11.jpg" />
+    <Content Include="images\12.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\3.jpg" />
+    <Content Include="images\3320946_213426014120_2.jpg" />
+    <Content Include="images\4.jpg" />
+    <Content Include="images\5.jpg" />
+    <Content Include="images\6.jpg" />
+    <Content Include="images\7.jpg" />
+    <Content Include="images\8.jpg" />
+    <Content Include="images\9.jpg" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\btn_search.jpg" />
+    <Content Include="images\footer_bg.jpg" />
+    <Content Include="images\login-sprite.png" />
+    <Content Include="images\nav_abg.jpg" />
+    <Content Include="images\nav_bg.jpg" />
+    <Content Include="images\nav_line.jpg" />
+    <Content Include="images\pwdstrength.gif" />
+    <Content Include="images\search_bg.jpg" />
+    <Content Include="images\search_lbg.jpg" />
+    <Content Include="images\sy_20091020134512799016.jpg" />
+    <Content Include="images\title_bg01.jpg" />
+    <Content Include="images\title_bg01_l.jpg" />
+    <Content Include="images\xing.jpg" />
+    <Content Include="images\yellow_button.png" />
+    <Content Include="index.aspx" />
+    <Content Include="introduce.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="logout.aspx" />
+    <Content Include="messege.aspx" />
+    <Content Include="process.aspx" />
+    <Content Include="register.aspx" />
+    <Content Include="say.aspx" />
+    <Content Include="say1.aspx" />
+    <Content Include="say2.aspx" />
+    <Content Include="Styles\css.css" />
+    <Content Include="Styles\intro.css" />
+    <Content Include="Styles\register.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="js\jquery-1.4.1-vsdoc.js" />
+    <Content Include="js\jquery-1.4.1.js" />
+    <Content Include="js\jquery-1.4.1.min.js" />
+    <Content Include="user0.aspx" />
+    <Content Include="user1.aspx" />
+    <Content Include="user2.aspx" />
+    <Content Include="user3.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ad\adduser.aspx.cs">
+      <DependentUpon>adduser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ad\adduser.aspx.designer.cs">
+      <DependentUpon>adduser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ad\bzlist.aspx.cs">
+      <DependentUpon>bzlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ad\bzlist.aspx.designer.cs">
+      <DependentUpon>bzlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ad\left.aspx.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ad\left.aspx.designer.cs">
+      <DependentUpon>left.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ad\status.aspx.cs">
+      <DependentUpon>status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ad\status.aspx.designer.cs">
+      <DependentUpon>status.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ad\userlist.aspx.cs">
+      <DependentUpon>userlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ad\userlist.aspx.designer.cs">
+      <DependentUpon>userlist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="apply.aspx.cs">
+      <DependentUpon>apply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="apply.aspx.designer.cs">
+      <DependentUpon>apply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="edit.aspx.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="edit.aspx.designer.cs">
+      <DependentUpon>edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="introduce.aspx.cs">
+      <DependentUpon>introduce.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="introduce.aspx.designer.cs">
+      <DependentUpon>introduce.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="messege.aspx.cs">
+      <DependentUpon>messege.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="messege.aspx.designer.cs">
+      <DependentUpon>messege.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="process.aspx.cs">
+      <DependentUpon>process.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="process.aspx.designer.cs">
+      <DependentUpon>process.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="say.aspx.cs">
+      <DependentUpon>say.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="say.aspx.designer.cs">
+      <DependentUpon>say.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="say1.aspx.cs">
+      <DependentUpon>say1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="say1.aspx.designer.cs">
+      <DependentUpon>say1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="say2.aspx.cs">
+      <DependentUpon>say2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="say2.aspx.designer.cs">
+      <DependentUpon>say2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="user0.aspx.cs">
+      <DependentUpon>user0.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user0.aspx.designer.cs">
+      <DependentUpon>user0.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user1.aspx.cs">
+      <DependentUpon>user1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user1.aspx.designer.cs">
+      <DependentUpon>user1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user2.aspx.cs">
+      <DependentUpon>user2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user2.aspx.designer.cs">
+      <DependentUpon>user2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user3.aspx.cs">
+      <DependentUpon>user3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user3.aspx.designer.cs">
+      <DependentUpon>user3.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="App_Themes\主题1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49177</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
