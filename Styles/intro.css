@@ -1,0 +1,243 @@
+@charset "utf-8";
+/* CSS Document */
+/* CSS Document */
+*{ margin:0px; padding:0px; font-size:14px;}
+
+
+
+
+.list_list {width:1003px; margin-top:10px;margin-left:auto;margin-right:auto;word-wrap:break-word;min-height:200px;}
+.list_list table {align:center;}
+.list_list td {font-size:14px;line-height:12px;padding-left:5px;min-width:100px;}
+.list_content{border:1px solid #2abefb; float:center; padding:10px;width:983px;min-height:400px;margin-left: auto;margin-right: auto;}
+.list_con_bot{
+    position:fixed;
+    left:0px;
+    bottom:0;
+    _position:relative;
+    _top:expression(document.documentElement.clientHeight + document.documentElement.scrollTop - this.offsetHeight);
+}
+td {  font-size: 15pt; color: #000000}
+body {  font-size: 15pt; color: #000000}
+.blktitle {  font-size: 15pt; font-weight: bold; color: #000000}
+.navytitle {  font-size: 15pt; font-weight: bold; color: #000000}
+.blksub {  font-size: 15pt; font-weight: bold; color: #000000}
+.navysub {  font-size: 15pt; font-weight: bold; color: #000000}
+.redhilite {  font-size: 15pt; font-weight: bold; color: #cc0000}
+.engtxt1 {  font-family: "arial"; font-size: 15pt}
+.engtxt2 {  font-family: "tahoma"; font-size: 15pt}
+a:visited {
+    text-decoration: none;
+}
+
+textarea { overflow:auto }
+.D_TB {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    background-color: #000000;
+}
+.D_TR_EVE {
+    background-color: #EFEFEF;
+}
+.D_TR_ODD {
+    background-color: #FFFFFF;
+}
+.D_TH {
+    background-color: #CFEAFE;
+    vertical-align: middle;
+    font-weight: bold;
+    text-align: center;
+}
+.D_TD_T{
+    font-family: Arial, Helvetica, sans-serif;
+    white-space:nowrap;
+    font-size: 14px;
+    font-weight: bold;
+}
+td.tit{font-size:18px;color:#000;font-weight:bold;}
+.tit span{float:right;display:inline;font-size:14px;margin-right:20px;}
+.tit span a:link,.tit span a:visited,.tit span a:hover{color:#fff;text-decoration: none}
+.D_TH_SORT {
+    background-color: #CCCCCC;
+    vertical-align: bottom;
+    font-weight: bold;
+    text-align: center;
+    cursor:pointer;
+}
+.D_TH_SORT_MO {
+    background-color: #CCCCCC;
+    vertical-align: bottom;
+    font-weight: bold;
+    text-align: center;
+    background-image:url(../images/sys/blueline.gif);
+    background-repeat:repeat-x;
+    cursor:pointer;
+}
+.TODO_TB {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: normal;
+    background-color:#000000;
+    border-spacing: 0px;
+    padding: 0px;
+    cell-spacing: 0px;
+}
+.TODO_EVE {
+    background-color: #EFEFEF;
+    border: 1px solid #000000;
+    padding: 0px;
+    cell-spacing: 0px;
+}
+.TODO_ODD {
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 0px;
+    cell-spacing: 0px;
+}
+.TODO_TH {
+    background-color: #CCCCCC;
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 0px;
+    cell-spacing: 0px;
+}
+font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.btnsmall {
+    background-image:url(../images/button/btnsmall.jpg);
+    background-position: center;
+    background-color: transparent;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+.btnsmall-mo {
+    background-image:url(../images/button/btnsmall-mo.jpg);
+    background-position: center;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+.btnmid {
+    background-image:url(../images/button/btnmid.gif);
+    background-position: center;
+    background-color: transparent;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-bottom: 2px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 75px;
+    cursor: pointer;
+}
+
+.btnmid-mo {
+    background-image:url(../images/button/btnmid-mo.gif);
+    background-position: center;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 75px;
+    cursor: pointer;
+}
+.btn {
+    background-image:url(../images/button/btn.jpg);
+    background-position: center;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 103px;
+    cursor: pointer;
+}
+.btn-mo {
+    background-image:url(../images/button/btn-mo.jpg);
+    background-position: center;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 103px;
+    cursor: pointer;
+}
+.btnlarge {
+    background-image:url(../images/button/btnlarge.gif);
+    background-position: center;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 153px;
+    cursor: pointer;
+}
+.btnlarge-mo {
+    background-image:url(../images/button/btnlarge-mo.gif);
+    background-position: center;
+    text-align:center;
+    font-size: 15px;
+    word-spacing: 2pt;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border: 0px;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 153px;
+    cursor: pointer;
+}

@@ -1,0 +1,5 @@
+c:\users\ravenfall\documents\visual studio 2010\Projects\standard\standard\bin\standard.dll
+c:\users\ravenfall\documents\visual studio 2010\Projects\standard\standard\bin\standard.pdb
+c:\users\ravenfall\documents\visual studio 2010\Projects\standard\standard\obj\Debug\ResolveAssemblyReference.cache
+c:\users\ravenfall\documents\visual studio 2010\Projects\standard\standard\obj\Debug\standard.dll
+c:\users\ravenfall\documents\visual studio 2010\Projects\standard\standard\obj\Debug\standard.pdb
